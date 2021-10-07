@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Extra Marital Affair Prediction</title>
+
+    <style>
+
+        .bg{
+            background-image: url("https://source.unsplash.com/1600x900/?couple");
+        }
+
+        .form {
+        margin: 20px;
+        
+        border-radius: 25px;
+            border-color: black;
+            border-width: 5px;
+        }
+
+        .content{
+            color: azure;
+            padding: 8px;
+            border-radius: 25px;
+            border-style: double;
+            border-color: wheat;
+            border-width: 10px;
+            
+        }
+
+        .profile{
+                vertical-align: middle;
+                border-radius: 50%;
+                border-style: double;
+                border-color: wheat;
+            border-width: 10px;
+            margin-top: 15px;
+
+        }
+    </style>
+
+</head>
+
+    <body class='bg' >
+            <div class="content" style="background-color:  rgba(54, 115, 66, 0.9)">
+                <h1 style="text-align: center">Extra Marital Affair Prediction</h1>
+
+                <div class="form">
+                    <h3><u><b>Enter the Required Parameters :</b></u></h3>
+                    <form action="/Prediction" method="POST" autocomplete="on">
+
+                        <label for="Rate_Marriage"><b>Rate_Marriage</b></label>&nbsp;
+                        <select name="Rate_Marriage" id="Rate_Marriage">
+                            <option value=1>very poor</option>
+                            <option value=2>poor</option>
+                            <option value=3>Ok</option>
+                            <option value=4>good</option>
+                            <option value=5>very good</option>
+                        </select>
+                        &nbsp; &nbsp;
+                        <label for="Age"><b>Age</b></label>&nbsp;
+                        <input type="number" name="Age" id="Age" placeholder="Woman's Age" step="any" required>
+                        &nbsp; &nbsp;
+                        <label for="YearsMarried"><b>Years_Married</b></label>&nbsp;
+                        <input type="number" name="YearsMarried" id="YearsMarried" placeholder="number of years married" step="any" required>
+                        &nbsp; &nbsp;
+                        <label for="Children"><b>Children</b></label>&nbsp;
+                        <input type="number" name="Children" id="Children" placeholder="number of children" required>
+                        &nbsp; &nbsp;
+                        <label for="Religious"><b>Religious</b></label>&nbsp;
+                        <select name="Religious" id="Religious">
+                            <option value=1>Not Religious</option>
+                            <option value=2>Neutral</option>
+                            <option value=3>Slightly Religious</option>
+                            <option value=4>Strongly Religious</option>
+                        </select>
+                        <br><br>
+                        <label for="educ"><b>Education</b></label>&nbsp;
+                        <select name="Education" id="educ">
+                            <option value=9>grade school</option>
+                            <option value=12>high school</option>
+                            <option value=14> some college</option>
+                            <option value=16>college graduate</option>
+                            <option value=17>some graduate school</option>
+                            <option value=20>advanced degree</option>
+                        </select>
+                        &nbsp; &nbsp;
+                        <label for="occ"><b>Woman's Occupation</b></label>&nbsp;
+                        <select name="WomansOccupation" id="occ">
+                            <option value=2>Farming/Semi-Skilled/Unskilled</option>
+                            <option value=3>White Collar</option>
+                            <option value=4>teacher/nurse/writer/technician/skilled</option>
+                            <option value=5>managerial/business</option>
+                            <option value=6>professional with advanced degree</option>
+                        </select>
+                        &nbsp; &nbsp;
+
+                        <label for="occh"><b>Husband's Occupation</b></label>&nbsp;
+                        <select name="HusbandsOccupation" id="occh">
+                            <option value=2>Farming/Semi-Skilled/Unskilled</option>
+                            <option value=3>White Collar</option>
+                            <option value=4>teacher/nurse/writer/technician/skilled</option>
+                            <option value=5>managerial/business</option>
+                            <option value=6>professional with advanced degree</option>
+                        </select>&nbsp;&nbsp;
+
+                        <input type="submit" value="Predict">
+                    </form>
+                    <br><br>
+
+
+                </div>
+            </div>
+
+    <div style="bottom: 0px;">
+                <div>
+
+                    <img class="profile"  src= "../static/images/72919592_417753879153334_1723338761183428608_n.png"alt="Shashank Sundi" style="width:200px;height:200px;" >
+                </div>
+
+                <div >
+                    <a href="https://github.com/Shashank-Sundi/FIFA-FOOTBALL-PLAYER-RATING-PREDICTION" target="_blank">
+                        <img alt="github link" src="../static/images/git.png" width=40" height="40" style="border-radius: 50%;margin-top: 15px;margin-left: 10px;border-color: wheat;border-style: solid;border-width: 4px;">
+                     </a>
+
+
+                     <a href="https://www.linkedin.com/in/shashank-sundi-4b78561b1" target="_blank">
+                        <img alt="linkedin" src="../static/images/Linkedin-logo-vector-PNG.png" width=50" height="50" style="border-radius: 50%;margin-top: 15px;margin-left: 10px;">
+                     </a>
+
+                     <a href="mailto:sundi.sn@gmail.com" >
+                    <img src="../static/images/gmailll.png" width=40" height="40" style="border-radius: 50%;margin-top: 15px;margin-left: 10px;border-color: wheat;border-style: solid;border-width: 4px;"> </a>
+                </div>
+            </div>
+    </body>
+</html>
+
