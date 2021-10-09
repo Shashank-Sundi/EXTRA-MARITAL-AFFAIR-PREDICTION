@@ -1,7 +1,7 @@
 # EXTRA-MARITAL-AFFAIR-PREDICTION
 Machine Learning Project to classify whether a person is involved in an extra marital affair or not .
 
-<img src="./static/images/charly-pn-k_z16ECarPQ-unsplash.jpg" alt="FIFA" style="height: 350px; width:700px;"/>
+<img src="./static/images/charly-pn-k_z16ECarPQ-unsplash.jpg" alt="FIFA" />
 <hr>
 
 ## Deployment
