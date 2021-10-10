@@ -1,5 +1,6 @@
 # EXTRA-MARITAL-AFFAIR-PREDICTION
 
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://extra-marital-affair-pred.herokuapp.com/)&nbsp;
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)&nbsp;
 <img src="https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg">&nbsp;
 ![GitHub repo size](https://img.shields.io/github/repo-size/Shashank-Sundi/EXTRA-MARITAL-AFFAIR-PREDICTION)&nbsp;
