@@ -1,8 +1,8 @@
 # EXTRA-MARITAL-AFFAIR-PREDICTION
 
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)&nbsp;
 <img src="https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg">&nbsp;
-![GitHub repo size](https://img.shields.io/github/repo-size/Shashank-Sundi/EXTRA-MARITAL-AFFAIR-PREDICTION)
+![GitHub repo size](https://img.shields.io/github/repo-size/Shashank-Sundi/EXTRA-MARITAL-AFFAIR-PREDICTION)&nbsp;
 ![Lines of code](https://img.shields.io/tokei/lines/github/Shashank-Sundi/EXTRA-MARITAL-AFFAIR-PREDICTION?style=flat)
 
 Machine Learning Project to classify whether a person is involved in an extra marital affair or not .
