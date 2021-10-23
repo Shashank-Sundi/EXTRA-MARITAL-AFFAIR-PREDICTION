@@ -20,8 +20,6 @@ The model has been deployed using REST API using flask, on Heroku :  https://ext
 
 Original Dataset : https://www.statsmodels.org/stable/datasets/generated/fair.html#datasets-generated-fair--page-root
 
-Python Notebook : https://shashank-sundi.github.io/EXTRA-MARITAL-AFFAIR-PREDICTION/
-
 Python Notebook : https://github.com/Shashank-Sundi/NOTEBOOKS/blob/main/Marital%20Affair%20Prediction.ipynb
 
 <hr>
